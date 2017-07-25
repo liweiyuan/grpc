@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="GrpcTestService:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="grpc_server_01.war">
+      <element id="artifact" artifact-name="GrpcTestService:war exploded" />
+    </root>
+  </artifact>
+</component>
