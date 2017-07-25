@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>GrpcTest</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+  <!-- GetFeatureServlet -->
+  <servlet>
+     <servlet-name>GetFeatureServlet1</servlet-name>
+     <servlet-class>com.ty.controller.GetFeatureServlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>GetFeatureServlet1</servlet-name>
+     <url-pattern>/GetFeatureServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+     <servlet-name>GetFeatureServlet2</servlet-name>
+     <servlet-class>com.ty.controller.GetFeatureServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>GetFeatureServlet2</servlet-name>
+     <url-pattern>/GetFeatureServlet2</url-pattern>
+  </servlet-mapping>
+  
+  <!-- ListFeatureServlet -->
+  <servlet>
+     <servlet-name>ListFeaturesServlet1</servlet-name>
+     <servlet-class>com.ty.controller.ListFeaturesServlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>ListFeaturesServlet1</servlet-name>
+     <url-pattern>/ListFeaturesServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+     <servlet-name>ListFeaturesServlet2</servlet-name>
+     <servlet-class>com.ty.controller.ListFeaturesServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>ListFeaturesServlet2</servlet-name>
+     <url-pattern>/ListFeaturesServlet2</url-pattern>
+  </servlet-mapping>
+ <!--   RouteChatServlet -->
+  <servlet>
+     <servlet-name>RouteChatServlet1</servlet-name>
+     <servlet-class>com.ty.controller.RouteChatServlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>RouteChatServlet1</servlet-name>
+     <url-pattern>/RouteChatServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+     <servlet-name>RouteChatServlet2</servlet-name>
+     <servlet-class>com.ty.controller.RouteChatServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>RouteChatServlet2</servlet-name>
+     <url-pattern>/RouteChatServlet2</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
